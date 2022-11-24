@@ -1,0 +1,28 @@
+#app {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),url("https://images.unsplash.com/photo-1602939444907-6e688c594a66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+#display {
+    color: white;
+    background-color: rgba(0,0,0);
+    border-radius: 20px
+}
+
+#drum-machine {
+    background-color: rgba(0,0,0,0.65);
+    margin: auto;
+    display: block;
+    align-items: center;
+    width: 40vh;
+    box-shadow: 5px 5px 10px 2px rgba(255, 251, 251, 0.8);
+    padding: 0;
+    border-radius: 20px
+}
+
+.drum-pad {
+    box-shadow: 5px 5px 10px 2px rgba(255, 251, 251, 0.8);
+
+}
